@@ -1,0 +1,29 @@
+.about-container {
+    display: flex;
+    align-items: center; 
+    padding-bottom: 40px;
+  }
+  
+  .about-text {
+    width: 60%;
+    margin-left: 15vh;
+    padding-bottom: 20px; 
+  }
+  
+  .about-text h1 {
+    margin-bottom: 15px; 
+    color: rgb(128, 89, 43);
+  }
+
+  .about-text h2 {
+    margin-bottom: 15px; 
+    color: rgb(128, 89, 43);
+  }
+
+  .about-text p {
+    margin-bottom: 15px; /* Aumenta el espacio entre párrafos */
+    font-size: 17px; 
+    color: rgb(128, 89, 43);
+  }
+  
+  
