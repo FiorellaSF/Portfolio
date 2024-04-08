@@ -1,0 +1,62 @@
+.events-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .events-container h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    color: rgb(128, 89, 43);
+  }
+  
+  .events-text {
+    margin: 0 auto; 
+    padding: 30px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .events-text p {
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px;
+    color: rgb(128, 89, 43); 
+  }
+
+  .events-text img {
+    height: 250px;
+  }
+  
+  .events-pics {
+    display: flex;
+    justify-content: center;
+  }
+
+  .events {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .pic {
+    width: 150px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .pic img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .pic:hover {
+    transform: scale(1.1);
+  }
+  
+  .pic.main {
+    width: 350px;
+  }
+  

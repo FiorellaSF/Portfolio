@@ -1,60 +1,76 @@
 .tools-container {
-    overflow: hidden;
-    padding: 40px;
-  }
-  
-  .tools {
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    justify-content: center;
-    text-align: center;
-    gap: 50px;
-    padding: 40px 0;
-  }
-  
-  .tool {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .tool img {
-    height: 70px;
-  }
-  
-  .tool p {
-    font-size: 20px;
-    margin: 0;
-    color: rgb(128, 89, 43);
-  }
-  
-  .tools-container h1 {
-    text-align: center;
-    font-size: 45px;
-    color: rgb(128, 89, 43);
-  }
+  overflow: hidden;
+  padding: 40px;
+}
 
-  .tools-text {
-    width: 75%;
-    margin: 0 auto; 
-    padding: 30px;
-    text-align: center; 
+.tools-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.working-container {
+  margin-right: 20px;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding: 40px;
+  border: 2px solid rgb(87, 60, 27);
+  border-radius: 8px;
+}
+
+.working {
+  height: 280px;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool img {
+  height: 70px;
+}
+
+.tool p {
+  font-size: 20px;
+  margin: 0;
+  color: rgb(128, 89, 43);
+}
+
+.tools-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: rgb(128, 89, 43);
+}
+
+.tools-text {
+  width: 75%;
+  margin: 0 auto; 
+  padding: 30px;
+  text-align: center; 
+}
+
+.tools-text p {
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(128, 89, 43); 
+}
+
+.tools-text h2 {
+  color: rgb(128, 89, 43); 
+  padding: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .tools {
+    grid-template-columns: auto auto;
   }
-  
-  .tools-text p {
-    font-size: 18px;
-    font-weight: bolder;
-    color: rgb(128, 89, 43); /* Tamaño de fuente ajustable según tus preferencias */
-  }
-  .tools-text h2{
-    color: rgb(128, 89, 43); 
-    padding: 7px;
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .tools {
-      grid-template-columns: auto auto;
-    }
-  }
-  
+}
