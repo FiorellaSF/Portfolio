@@ -70,10 +70,9 @@
 }
 
 @media screen and (max-width: 768px) {
- 
-
   .tools {
     grid-template-columns: auto auto;
+    padding: auto;
   }
 }
 

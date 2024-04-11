@@ -30,4 +30,7 @@
     .farewell-container{
       flex-direction: column;
     }
+    .farewell-container img {
+      width: auto;
+    }
   }
