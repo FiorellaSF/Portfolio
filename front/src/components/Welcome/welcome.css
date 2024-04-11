@@ -127,3 +127,19 @@
     width: 250px;
 }
 }
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: row; /* Cambiado el flujo de columnas a filas para pantallas más pequeñas */
+    justify-content: center; /* Centrar los botones en pantallas más pequeñas */
+    bottom: 20px; /* Ajustar la posición inferior para pantallas más pequeñas */
+    right: auto; /* Eliminar el posicionamiento a la derecha para pantallas más pequeñas */
+  }
+
+  .buttons a {
+    margin-top: 0; /* Eliminar el margen superior entre los botones para pantallas más pequeñas */
+    margin-right: 10px; /* Agregar un pequeño margen entre los botones */
+    font-size: 16px; /* Reducir aún más el tamaño de la fuente para pantallas más pequeñas */
+    padding: 12px 16px; /* Reducir el padding para hacer el botón más compacto en pantallas más pequeñas */
+  }
+}
