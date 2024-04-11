@@ -26,4 +26,8 @@
     color: rgb(128, 89, 43);
   }
   
-  
+  @media screen and (max-width: 900px) {
+    .about-container {
+      flex-direction: column;
+    }
+  }

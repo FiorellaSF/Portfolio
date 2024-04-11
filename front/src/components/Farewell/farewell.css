@@ -26,4 +26,8 @@
   }
   
  
-  
+  @media screen and (max-width: 746px){
+    .farewell-container{
+      flex-direction: column;
+    }
+  }
