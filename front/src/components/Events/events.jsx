@@ -3,7 +3,7 @@ import './events.css';
 
 const Events = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = ["feliz.jpg", "manpower.jpg", "meta.jpg", "meta2.jpg", "empleatech.jpg", "meta3.jpg", "metashan.jpg", ];
+  const images = ["feliz.jpg", "manpower.jpg", "meta.jpg", "meta2.jpg", "empleatech.jpg", "metawold.jpg", "metashan.jpg", "vr2.jpg", ];
 
   const changeImage = (index) => {
     setCurrentIndex(index);

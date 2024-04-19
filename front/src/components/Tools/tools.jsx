@@ -52,7 +52,7 @@ const Tools = () => {
         </div>
       </div>
       <div className="tools-text">
-        <p>Emocionada por todo lo aprendido, estoy deseando continuar mi camino en el mundo de la tecnología. Cada obstáculo superado y cada nueva habilidad adquirida ha sido un logro personal,</p>
+        <p>Emocionada por todo lo aprendido, estoy deseando continuar mi camino en el mundo de la tecnología. Cada obstáculo superado y cada nueva habilidad adquirida ha sido un logro personal.</p>
         <h2>y me gustaría seguir ampliándolos!</h2>
       </div>
     </main>

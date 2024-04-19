@@ -10,6 +10,8 @@
 
 }
 
+
+
 .welcome h1 {
     font-size: 40px;
     color: rgb(128, 89, 43);
@@ -124,7 +126,8 @@
  }
 
   .welcome-text {
-    width: 250px;
+    width: 80vw;
+    height: 200px;
 }
 }
 
